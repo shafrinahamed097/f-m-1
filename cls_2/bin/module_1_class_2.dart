@@ -33,7 +33,7 @@ main() {
   // find length
   print(fullName.length);
 
-  // var
+  // var -> can change value
   var x = 10.20;
   print(x);
 
@@ -42,6 +42,14 @@ main() {
 
   // x='Taufiq';
   // print(x);
+
+  // dynamic -> can changes value and dataType
+  dynamic person = "karim";
+  print(person);
+  person=10;
+  print(person);
+  person=true;
+  print(person);
 
   
 }
