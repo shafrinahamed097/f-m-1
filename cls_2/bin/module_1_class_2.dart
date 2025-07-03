@@ -13,7 +13,7 @@ main() {
   bool isTrue = true;
   print(isTrue);
 
-  // double type (flotng number)
+  // double type (floting number)
   double amount = 10.2;
   print(amount);
 
@@ -27,7 +27,21 @@ main() {
   print(fullName.contains("Taufiq"));
   print(fullName.contains("taufiq"));
 
-
   print(fullName.toUpperCase());
   print(fullName.toLowerCase());
+
+  // find length
+  print(fullName.length);
+
+  // var
+  var x = 10.20;
+  print(x);
+
+  x = 20;
+  print(x);
+
+  // x='Taufiq';
+  // print(x);
+
+  
 }
