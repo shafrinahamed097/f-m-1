@@ -17,9 +17,17 @@ main() {
   double amount = 10.2;
   print(amount);
 
-  // add to variable using string
+  // add two variable using string
   String firstName = "Taufiq";
   String lastName = "Sabbir";
   String fullName = "$firstName $lastName";
   print(fullName);
+
+  // contains
+  print(fullName.contains("Taufiq"));
+  print(fullName.contains("taufiq"));
+
+
+  print(fullName.toUpperCase());
+  print(fullName.toLowerCase());
 }
