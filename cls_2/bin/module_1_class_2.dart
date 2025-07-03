@@ -5,8 +5,14 @@ main() {
   int age = 28;
   print(age);
 
-  // string 
+  // string
   String name = "Taufiq";
   print(name);
+
+  // boolean (true || false)
+  bool isTrue = true;
+  print(isTrue);
+
+  
 
 }
